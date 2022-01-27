@@ -9,6 +9,11 @@ public class Insegnante extends Persona {
 		this.matricola = matricola;
 	}
 	
+	public Insegnante(String nome, String cognome, String codiceFiscale, int eta)
+	{
+		super(nome, cognome, codiceFiscale, eta);
+	}
+	
 	@Override
 	public void stampaDatiAggiuntivi() {
 		super.stampaInfo();
